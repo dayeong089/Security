@@ -88,4 +88,4 @@
 * 중간에 tcp packet 중 RST 패킷을 서버에게 보내서 새로 연결을 맺자고 한 후 서버와 클라이언트 간 통신 끊음
 * 공격자와 서버는 3 hand-shaking을 통해 establish(통신 연결)
 * 통신 엿보고 있었으므로 client의 sequence number를 알고 있으므로 client와도 establish
-* >> 서버와 클라이언트 통신을 중간에 가로챔
+* 이러한 방식으로 서버와 클라이언트 통신을 중간에 가로챔
